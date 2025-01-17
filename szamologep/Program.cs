@@ -24,6 +24,10 @@ namespace szamologep
 		{
 			return a / b;
 		}
+		static string szazalek(int a, int b)
+		{
+			return Convert.ToString(a / b * 100) + "%";
+		}
 		static void Main(string[] args)
 		{
 		}
