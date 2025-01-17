@@ -28,8 +28,16 @@ namespace szamologep
 		{
 			return Convert.ToString(a / b * 100) + "%";
 		}
+
 		static void Main(string[] args)
 		{
+			Console.Write("Kérem adja meg az első számot: ");
+			int a = Convert.ToInt32(Console.ReadLine());
+			Console.Write("Kérem adja meg a második számot: ");
+			int b = Convert.ToInt32(Console.ReadLine());
+			Console.Write("Az elvégezendő művelet jele: ");
+			char jel = Convert.ToChar(Console.ReadLine());
+			indit(a, b, jel);
 		}
 	}
 }
