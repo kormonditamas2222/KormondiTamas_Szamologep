@@ -20,6 +20,10 @@ namespace szamologep
 		{
 			return a * b;
 		}
+		static double osztas(int a, int b)
+		{
+			return a / b;
+		}
 		static void Main(string[] args)
 		{
 		}
