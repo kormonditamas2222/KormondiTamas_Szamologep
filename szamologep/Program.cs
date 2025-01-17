@@ -8,6 +8,11 @@ namespace szamologep
 {
 	internal class Program
 	{
+		static int osszeadas(int a, int b)
+		{
+			return a + b;
+		}
+
 		static void Main(string[] args)
 		{
 		}
